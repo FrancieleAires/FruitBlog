@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    background: #e6e6e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cabecalho {
+    background-color: #6DB53E;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+.principal {
+    background: #e6e6e6;
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.parte-conteudo  {
+    background:  #e6e6e6;
+
+}
+.parte-conteudo {
+    width: 660px;
+    float: left;
+    
+}
+.conteudos {
+   padding: 25px;
+   margin-bottom: 20px;
+   background: white;
+}
+
+
+.lateral {
+    width: 240px;
+    float: right;
+    background: #e6e6e6;
+}
+.conteudo-lateral  {
+    padding: 10px;
+    margin-bottom: 20px;
+    background: rgb(255, 255, 255);
+
+    
+}
+.postagem-lateral {
+    font-size: 1em;
+    padding: 5px;
+    border-bottom: 1px solid #CCC ;
+   
+}
+.rodape {
+    clear: both;
+    text-align: center;
+    background: #CCC;
+    padding: 15px;
+    
+    
+}
+
+.logo {
+    
+    padding: 10px;
+}
+.cor {
+    color: #ffffff
+}
+.cor2 {
+    color: #2d2d2e;
+}
+h2 {
+    color: #6DB53E;
+}
+h3 {
+    background: #CCCe;
+    color: #565656;
+    padding: 8px;
+   
+}
+.span2 {
+    position: absolute;
+    left: 25px;
+}
+.span4 {
+    position: absolute;
+    right: 50px;
+}
+
+
+.datas-criacao {
+    display: block;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+
+}
+
+a {
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+    
+}
+a:link, a:visited {
+    color: #ffffff;
+    padding: 10px 20px;
+    
+}
+.lateral a{
+    color: #6DB53E;
+    
+    
+    
+}
+
+
+a:hover {
+    color: #6DB53E;
+    background: white;
+    padding: 3px;
+}
+
+
+@media screen and (max-width: 667px) {
+    .principal {
+        width: 100%;
+        padding: 0%;
+        
+    }
+
+    .cabecalho a {
+        display: block;
+    }
+    .parte-conteudo {
+        width: 90%;
+    }
+    .lateral {
+        width: 100%;
+    }
+    
+    img {
+        width: 90%;
+        padding-left: 5%;
+    }
+    .span2, .span4 {
+        display: block;
+        position: static;
+        padding: 15px;
+    }
+    
+}
+@media screen and (max-width: 1080px) {
+    .lateral {
+        width: 100%;
+    }
+    .parte-conteudo {
+        width: 100%;
+    }
+    .principal {
+        width: 90%;
+        padding: 1%;
+    }
+    img {
+        padding-left: 5%;
+    }
+    
+}
+ 
